@@ -1,0 +1,10 @@
+# Do NOT change the config version!
+config_version: 1
+# Set locale for user dialog messages
+language: de
+# Enable debug output
+debug: false
+# world to enable towers
+activeWorld: freebuild
+# attackRange of towers (5-25 blocks)
+attackRange: 10

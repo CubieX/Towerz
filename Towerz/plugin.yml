@@ -1,0 +1,21 @@
+name: Towerz
+main: com.github.CubieX.Towerz.Towerz
+author: CubieX
+softdepend: [PermissionsEx, zPermissions, bPermissions, PermissionsBukkit]
+version: 0.0.1
+description: Defence towers
+
+commands:
+    tower:
+      description: Using Towerz
+      usage: /ms version | reload
+
+permissions:
+    towerz.use:
+        description: Use basic functionality
+        default: op
+    towerz.admin:
+        description: Allows use of all commands and effects
+        default: op
+        children:
+          towerz.use: true
